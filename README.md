@@ -1,15 +1,15 @@
 # bibliometric-data-preprocessing
 This repository contains the code and resources needed to perform a complete and rigorous bibliometric analysis in the field of *low-code* and *no-code* technologies. It has been designed to facilitate the cleaning, merging and normalization of bibliometric data extracted from the **Scopus** and **Web of Science (WoS)** databases, while respecting the steps defined by the **PRISMA** method.
 ### Repository contents
-- Automation scripts:**
+- Automation scripts:
   - Merge data sets from multiple bibliometric databases.
   - Data cleansing (normalization of author names, keywords, affiliations, etc.).
   - Removal of incomplete or redundant records.
-- Main features:**
+- Main features:
   - Use of the **mergeDbSources** algorithm to merge data from WoS and Scopus.
   - Standardize abbreviations and frequent terms using custom dictionaries.
   - Export of cleaned and enriched data in Excel format for further analysis.
-- Technologies used:**
+- Technologies used:
   - Language : **R**
   - Libraries: `bibliometrix`, `dplyr`, `writexl`, `stringr`
 ### Project objectives
